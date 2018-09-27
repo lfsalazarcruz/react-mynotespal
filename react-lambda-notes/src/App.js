@@ -20,7 +20,7 @@ class App extends Component {
 	}
 
 	componentDidMount() {
-		const endpoint = 'http://localhost:9000/api/notes';
+		const endpoint = 'https://mynotespal.herokuapp.com/api/notes';
 		axios
 		.get(endpoint)
 		.then(response => {
